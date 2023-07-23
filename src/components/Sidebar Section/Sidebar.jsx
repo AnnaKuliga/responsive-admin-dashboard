@@ -9,6 +9,10 @@ import { IoMdSpeedometer } from "react-icons/io";
 import { MdDeliveryDining } from "react-icons/md";
 import { MdOutlineExplore } from "react-icons/md";
 import { BsTrophy } from "react-icons/bs";
+import { AiOutlinePieChart } from "react-icons/ai";
+import { BiTrendingUp } from "react-icons/bi";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { BsCreditCard2Front } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
@@ -46,6 +50,38 @@ const Sidebar = () => {
             <a href="#" className="menuLink">
               <BsTrophy className="icon" />
               <span>Products</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="settingsDiv">
+        <h3 className="divTitle">SETTINGS</h3>
+        <ul className="menuLists grid">
+          <li className="listItem">
+            <a href="#" className="menuLink">
+              <AiOutlinePieChart className="icon" />
+              <span>Charts</span>
+            </a>
+          </li>
+
+          <li className="listItem">
+            <a href="#" className="menuLink">
+              <BiTrendingUp className="icon" />
+              <span>Trends</span>
+            </a>
+          </li>
+
+          <li className="listItem">
+            <a href="#" className="menuLink">
+              <MdOutlinePermContactCalendar className="icon" />
+              <span>Contact</span>
+            </a>
+          </li>
+
+          <li className="listItem">
+            <a href="#" className="menuLink">
+              <BsCreditCard2Front className="icon" />
+              <span>Billing</span>
             </a>
           </li>
         </ul>
