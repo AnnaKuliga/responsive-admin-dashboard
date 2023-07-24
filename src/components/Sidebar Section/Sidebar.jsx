@@ -13,6 +13,7 @@ import { AiOutlinePieChart } from "react-icons/ai";
 import { BiTrendingUp } from "react-icons/bi";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { BsCreditCard2Front } from "react-icons/bs";
+import { BsQuestionCircle } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
@@ -54,6 +55,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
+
       <div className="settingsDiv">
         <h3 className="divTitle">SETTINGS</h3>
         <ul className="menuLists grid">
@@ -85,6 +87,19 @@ const Sidebar = () => {
             </a>
           </li>
         </ul>
+      </div>
+
+      <div className="sideBarCard">
+        <BsQuestionCircle className="icon" />
+        <div className="cardContent">
+          <div className="circle1"></div>
+
+          <h3>Help Center</h3>
+          <p>
+            Having trouble in Antiquo, please contact us for more questions.
+          </p>
+          <button className="btn">Go to help center</button>
+        </div>
       </div>
     </div>
   );
