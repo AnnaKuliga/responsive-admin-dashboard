@@ -1,6 +1,6 @@
 :root {
   --PrimaryColor: hsl(27, 59%, 35%);
-  --HoverColor: #f0e894;
+  --HoverColor: #dec483;
   --paleYellow: hsl(54, 75%, 89%);
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(0, 0%, 18%);
@@ -89,7 +89,7 @@
 
   .sideBarCard {
     width: 100%;
-    padding-left: 1rem;
+    padding: 1rem;
     text-align: center;
     position: relative;
 
