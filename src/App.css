@@ -87,3 +87,7 @@ body {
   border-radius: 1rem;
   box-shadow: 2px 2px 8px var(--greyText);
 }
+/*Hide the scrollthumb*/
+::-webkit-scrollbar {
+  display: none;
+}
