@@ -15,7 +15,7 @@ const Top = () => {
       <div className="headerSection flex">
         <div className="title">
           <h1>Welcome to Antiquo.</h1>
-          <p>Hello Anna, Welcome back!</p>
+          <p>Welcome back, Anna!</p>
         </div>
 
         <div className="searchBar flex">
@@ -25,7 +25,7 @@ const Top = () => {
 
         <div className="adminDiv flex">
           <TbMessageCircle className="icon" />
-          <IoNotificationsOutline />
+          <IoNotificationsOutline className="icon" />
           <div className="adminImage">
             <img src={anna_kul} alt="user image" />
           </div>
