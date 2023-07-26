@@ -8,7 +8,7 @@ import { IoNotificationsOutline } from "react-icons/io5";
 
 //Imported image ====>
 import anna_kul from "../../../assets/anna_kul.jpg";
-
+import video from "../../../assets/antique.mp4";
 const Top = () => {
   return (
     <div className="topSection">
@@ -28,6 +28,22 @@ const Top = () => {
           <IoNotificationsOutline className="icon" />
           <div className="adminImage">
             <img src={anna_kul} alt="user image" />
+          </div>
+        </div>
+      </div>
+
+      <div className="cardSection flex">
+        <div className="rightCard felx">
+          <h2>Create and sell extraordinary products</h2>
+          <p>The world's fastest growing industry! </p>
+
+          <div className="buttons flex">
+            <button className="btn">Explore More</button>
+            <button className="btn transparent">Top Sellers</button>
+          </div>
+
+          <div className="videoDiv">
+            <video src={video} autoPlay loop muted></video>
           </div>
         </div>
       </div>
