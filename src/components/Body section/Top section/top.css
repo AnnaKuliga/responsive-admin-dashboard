@@ -79,7 +79,7 @@
 .topSection .cardSection .rightCard {
   position: relative;
   flex-basis: 90%;
-  height: 300px;
+  height: 150px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -87,4 +87,19 @@
   padding: 2rem;
   border-radius: 1rem;
   overflow: hidden;
+}
+.topSection .cardSection .rightCard .videoDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.topSection .cardSection .rightCard .videoDiv video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=Top.css.map */
