@@ -8,13 +8,13 @@ import { IoNotificationsOutline } from "react-icons/io5";
 
 //Imported image ====>
 import anna_kul from "../../../assets/anna_kul.jpg";
-import video from "../../../assets/antique.mp4";
+import video from "../../../assets/coffee.mp4";
 const Top = () => {
   return (
     <div className="topSection">
       <div className="headerSection flex">
         <div className="title">
-          <h1>Welcome to Antiquo.</h1>
+          <h1>Welcome to Coffoo.</h1>
           <p>Welcome back, Anna!</p>
         </div>
 
