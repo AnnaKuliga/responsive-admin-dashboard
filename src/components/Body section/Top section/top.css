@@ -78,8 +78,8 @@
 }
 .topSection .cardSection .rightCard {
   position: relative;
-  flex-basis: 90%;
-  height: 150px;
+  flex-basis: 70%;
+  height: 200px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -102,4 +102,40 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.topSection .cardSection .rightCard h2,
+.topSection .cardSection .rightCard p,
+.topSection .cardSection .rightCard .btn {
+  z-index: 100;
+}
+.topSection .cardSection .rightCard h2 {
+  font-size: var(--h1FontSize);
+  color: var(--whiteColor);
+  font-weight: 800;
+}
+.topSection .cardSection .rightCard p {
+  padding: 1rem;
+  color: var(--paleYellow);
+  font-weight: 500;
+}
+.topSection .cardSection .rightCard .buttons {
+  gap: 1rem;
+}
+.topSection .cardSection .rightCard .buttons .btn {
+  box-shadow: none;
+  padding: 0.8rem 1.5rem;
+  color: var(--PrimaryColor);
+  border-radius: 2px solid transparent;
+}
+.topSection .cardSection .rightCard .buttons .btn:hover {
+  color: white;
+}
+.topSection .cardSection .rightCard .buttons .transparent {
+  background: none;
+  border: 2px solid --paleYellow;
+  color: var(--paleYellow);
+}
+.topSection .cardSection .rightCard .buttons .transparent:hover {
+  background: var(--paleYellow);
+  color: var(--PrimaryColor);
 }/*# sourceMappingURL=Top.css.map */

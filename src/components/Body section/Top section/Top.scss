@@ -88,8 +88,8 @@
 
     .rightCard {
       position: relative;
-      flex-basis: 90%;
-      height: 150px;
+      flex-basis: 70%;
+      height: 200px;
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
@@ -111,6 +111,48 @@
           width: 100%;
           height: 100%;
           object-fit: cover;
+        }
+      }
+
+      h2,
+      p,
+      .btn {
+        z-index: 100;
+      }
+
+      h2 {
+        font-size: var(--h1FontSize);
+        color: var(--whiteColor);
+        font-weight: 800;
+      }
+      p {
+        padding: 1rem;
+        color: var(--paleYellow);
+        font-weight: 500;
+      }
+      .buttons {
+        gap: 1rem;
+
+        .btn {
+          box-shadow: none;
+          padding: 0.8rem 1.5rem;
+          color: var(--PrimaryColor);
+          border-radius: 2px solid transparent;
+
+          &:hover {
+            color: white;
+          }
+        }
+
+        .transparent {
+          background: none;
+          border: 2px solid --paleYellow;
+          color: var(--paleYellow);
+
+          &:hover {
+            background: var(--paleYellow);
+            color: var(--PrimaryColor);
+          }
         }
       }
     }
