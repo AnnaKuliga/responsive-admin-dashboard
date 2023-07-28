@@ -6,10 +6,13 @@ import { BiSearchAlt } from "react-icons/bi";
 import { TbMessageCircle } from "react-icons/tb";
 import { IoNotificationsOutline } from "react-icons/io5";
 import { BsArrowRightShort } from "react-icons/bs";
+import { BsQuestionCircle } from "react-icons/bs";
 
 //Imported image ====>
 import anna_kul from "../../../assets/anna_kul.jpg";
 import video from "../../../assets/coffee.mp4";
+import img from "../../../assets/coffee/extra pic.png";
+
 const Top = () => {
   return (
     <div className="topSection">
@@ -69,6 +72,25 @@ const Top = () => {
                 Go to my orders <BsArrowRightShort className="icon" />
               </span>
             </div>
+
+            <div className="imgDiv">
+              <img src={img} alt="woman in a cafe" />
+            </div>
+            {/*
+            <div className="sideBarCard">
+              <BsQuestionCircle className="icon" />
+              <div className="cardContent">
+                <div className="circle1"></div>
+
+                <h3>Help Center</h3>
+                <p>
+                  Having trouble in Antiquo, please contact us for more
+                  questions.
+                </p>
+                <button className="btn">Go to help center</button>
+              </div>
+            </div>
+            */}
           </div>
         </div>
       </div>
