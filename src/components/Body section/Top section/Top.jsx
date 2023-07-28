@@ -54,15 +54,13 @@ const Top = () => {
         <div className="leftCard flex ">
           <div className="main flex">
             <div className="textDiv">
-              <h2>My Stat</h2>
+              <h2>My Statistics</h2>
 
               <div className="flex">
                 <span>
                   Today <br /> <small>4 Orders</small>
                 </span>
-              </div>
 
-              <div className="flex">
                 <span>
                   This Month <br /> <small>127 Orders</small>
                 </span>
