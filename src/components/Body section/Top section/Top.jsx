@@ -19,7 +19,7 @@ const Top = () => {
         </div>
 
         <div className="searchBar flex">
-          <input type="text" placeholder="SearchDashboard" name="" id="" />
+          <input type="text" placeholder="Search Dashboard" name="" id="" />
           <BiSearchAlt className="icon" />
         </div>
 
@@ -33,7 +33,7 @@ const Top = () => {
       </div>
 
       <div className="cardSection flex">
-        <div className="rightCard felx">
+        <div className="rightCard flex">
           <h2>Create and sell extraordinary products</h2>
           <p>The world's fastest growing industry! </p>
 
