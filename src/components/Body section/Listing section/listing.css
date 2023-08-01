@@ -8,6 +8,8 @@
   --bgColor: hsl(220, 10%, 94%);
   --greyText: rgb(190, 190, 190);
   --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
   --biggestFontSize: 2.5rem;
   --h1FontSize: 1.5rem;
   --h2FontSize: 1.25rem;
@@ -34,4 +36,26 @@
 }
 .listingSection .heading .btn:hover {
   border: 1px solid var(--PrimaryColor);
+}
+.listingSection .secContainer {
+  width: 100%;
+  margin: 1rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.listingSection .secContainer .singleItem {
+  position: relative;
+  width: 150px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  background: var(--itemCardColor);
+}
+.listingSection .secContainer .singleItem:hover {
+  background: var(--itemCardHover);
+  box-shadow: 0 2px 2px var(--inputColor);
 }/*# sourceMappingURL=Listing.css.map */
