@@ -82,7 +82,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--bgColor);
+  background: var(--inputColor);
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 2px 2px 8px var(--greyText);
