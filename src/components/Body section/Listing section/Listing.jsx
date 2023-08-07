@@ -15,6 +15,7 @@ import coffee_maker3 from "../../../assets/coffee/Espresso Machines Coffee Saeco
 import coffee_mug from "../../../assets/coffee/coffee_mug.png";
 import coffee_mug2 from "../../../assets/coffee/coffee_mug2.png";
 import coffee_mug3 from "../../../assets/coffee/coffee_mug3.png";
+import user1 from "../../../assets/coffee/user (1).png";
 
 const Listing = () => {
   return (
@@ -95,6 +96,23 @@ const Listing = () => {
           <h3>
             Coffee Mug <small>200ml</small>
           </h3>
+        </div>
+      </div>
+
+      <div className="sellers flex">
+        <div className="topSellers">
+          <div className="heading flex">
+            <h3>Top Sellers</h3>
+            <button className="btn flex">
+              See All <BsArrowRightShort className="icon" />
+            </button>
+          </div>
+
+          <div className="card flex">
+            <div className="users">
+              <img src={user1} alt="User Image" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
