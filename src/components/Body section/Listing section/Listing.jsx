@@ -16,6 +16,11 @@ import coffee_mug from "../../../assets/coffee/coffee_mug.png";
 import coffee_mug2 from "../../../assets/coffee/coffee_mug2.png";
 import coffee_mug3 from "../../../assets/coffee/coffee_mug3.png";
 import user1 from "../../../assets/coffee/user (1).png";
+import user2 from "../../../assets/coffee/user (2).png";
+import user3 from "../../../assets/coffee/user (3).png";
+import user4 from "../../../assets/coffee/user (4).png";
+import user5 from "../../../assets/coffee/user (5).png";
+import user6 from "../../../assets/coffee/user (6).png";
 
 const Listing = () => {
   return (
@@ -56,7 +61,7 @@ const Listing = () => {
           <AiFillHeart className="icon" />
           <img src={coffee_maker} alt="coffee maker" />
           <h3>
-            Coffeemaker <br /> <small>French Presses</small>
+            Coffee maker <br /> <small>French Presses</small>
           </h3>
         </div>
 
@@ -111,12 +116,29 @@ const Listing = () => {
           <div className="card flex">
             <div className="users">
               <img src={user1} alt="User Image" />
+              <img src={user2} alt="User Image" />
+              <img src={user3} alt="User Image" />
             </div>
             <div className="cardText">
               <span>
-                568 bags of coffee seeds <br />
+                356 bags of Flavoured Ground Coffee <br />
                 <small>
                   12 sells within <span className="date">10 Days</span>
+                </small>
+              </span>
+            </div>
+          </div>
+          <div className="card flex">
+            <div className="users">
+              <img src={user4} alt="User Image" />
+              <img src={user5} alt="User Image" />
+              <img src={user6} alt="User Image" />
+            </div>
+            <div className="cardText">
+              <span>
+                656 coffee mugs <br />
+                <small>
+                  15 sells within <span className="date">10 Hours</span>
                 </small>
               </span>
             </div>
