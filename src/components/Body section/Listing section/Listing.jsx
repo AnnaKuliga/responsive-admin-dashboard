@@ -112,6 +112,14 @@ const Listing = () => {
             <div className="users">
               <img src={user1} alt="User Image" />
             </div>
+            <div className="cardText">
+              <span>
+                568 bags of coffee seeds <br />
+                <small>
+                  12 sells within <span className="date">10 Days</span>
+                </small>
+              </span>
+            </div>
           </div>
         </div>
       </div>
