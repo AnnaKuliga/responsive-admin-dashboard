@@ -60,7 +60,7 @@
   box-shadow: 0 2px 2px var(--inputColor);
 }
 .listingSection .secContainer .singleItem img {
-  max-width: 80px;
+  max-width: 70px;
 }
 .listingSection .secContainer .singleItem .icon {
   position: absolute;
