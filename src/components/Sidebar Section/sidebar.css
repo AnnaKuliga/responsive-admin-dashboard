@@ -178,9 +178,8 @@
   }
 }
 @media screen and (max-width: 390px) {
-  .sideBar .menuDiv .menuLists .listItem,
-  .sideBar .settingsDiv .menuLists .listItem {
-    padding: 0.2rem 0.5rem;
+  .sideBar .logoDiv img {
+    max-width: 40px;
   }
   .sideBar .menuDiv .menuLists .listItem .menuLink,
   .sideBar .settingsDiv .menuLists .listItem .menuLink {
