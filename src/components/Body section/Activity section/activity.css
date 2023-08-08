@@ -65,4 +65,9 @@
 .activitySection .secContainer .singleCustomer .customerDetails p {
   font-weight: 500;
   font-size: var(--smallFontSize);
+}
+.activitySection .secContainer .singleCustomer .duration {
+  color: var(--textColor);
+  font-weight: 500;
+  font-size: var(--smallestFontSize);
 }/*# sourceMappingURL=Activity.css.map */
