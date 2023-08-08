@@ -74,21 +74,6 @@ const Top = () => {
             <div className="imgDiv">
               <img src={img} alt="woman in a cafe" />
             </div>
-            {/*
-            <div className="sideBarCard">
-              <BsQuestionCircle className="icon" />
-              <div className="cardContent">
-                <div className="circle1"></div>
-
-                <h3>Help Center</h3>
-                <p>
-                  Having trouble in Antiquo, please contact us for more
-                  questions.
-                </p>
-                <button className="btn">Go to help center</button>
-              </div>
-            </div>
-            */}
           </div>
         </div>
       </div>
