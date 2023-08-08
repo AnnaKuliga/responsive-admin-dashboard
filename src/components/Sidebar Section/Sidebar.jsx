@@ -29,28 +29,28 @@ const Sidebar = () => {
           <li className="listItem">
             <a href="#" className="menuLink">
               <IoMdSpeedometer className="icon" />
-              <span>Dashboard</span>
+              <span className="smallText">Dashboard</span>
             </a>
           </li>
 
           <li className="listItem">
             <a href="#" className="menuLink">
               <MdDeliveryDining className="icon" />
-              <span>My Orders</span>
+              <span className="smallText">My Orders</span>
             </a>
           </li>
 
           <li className="listItem">
             <a href="#" className="menuLink">
               <MdOutlineExplore className="icon" />
-              <span>Explore</span>
+              <span className="smallText">Explore</span>
             </a>
           </li>
 
           <li className="listItem">
             <a href="#" className="menuLink">
               <BsTrophy className="icon" />
-              <span>Products</span>
+              <span className="smallText">Products</span>
             </a>
           </li>
         </ul>
@@ -62,28 +62,28 @@ const Sidebar = () => {
           <li className="listItem">
             <a href="#" className="menuLink">
               <AiOutlinePieChart className="icon" />
-              <span>Charts</span>
+              <span className="smallText">Charts</span>
             </a>
           </li>
 
           <li className="listItem">
             <a href="#" className="menuLink">
               <BiTrendingUp className="icon" />
-              <span>Trends</span>
+              <span className="smallText">Trends</span>
             </a>
           </li>
 
           <li className="listItem">
             <a href="#" className="menuLink">
               <MdOutlinePermContactCalendar className="icon" />
-              <span>Contact</span>
+              <span className="smallText">Contact</span>
             </a>
           </li>
 
           <li className="listItem">
             <a href="#" className="menuLink">
               <BsCreditCard2Front className="icon" />
-              <span>Billing</span>
+              <span className="smallText">Billing</span>
             </a>
           </li>
         </ul>
