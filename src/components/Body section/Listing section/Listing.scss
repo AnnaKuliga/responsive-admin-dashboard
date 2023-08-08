@@ -144,6 +144,7 @@
     .sellers {
       .card {
         flex-direction: column;
+        margin-top: 0.5rem;
       }
     }
   }
@@ -169,7 +170,7 @@
       flex-direction: column;
 
       .card {
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 0.5rem;
       }
     }
