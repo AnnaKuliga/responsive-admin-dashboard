@@ -6,7 +6,6 @@ import { BiSearchAlt } from "react-icons/bi";
 import { TbMessageCircle } from "react-icons/tb";
 import { IoNotificationsOutline } from "react-icons/io5";
 import { BsArrowRightShort } from "react-icons/bs";
-import { BsQuestionCircle } from "react-icons/bs";
 
 //Imported image ====>
 import anna_kul from "../../../assets/anna_kul.jpg";
@@ -31,7 +30,7 @@ const Top = () => {
           <TbMessageCircle className="icon" />
           <IoNotificationsOutline className="icon" />
           <div className="adminImage">
-            <img src={anna_kul} alt="user image" />
+            <img src={anna_kul} alt="User Profile Icon" />
           </div>
         </div>
       </div>
